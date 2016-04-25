@@ -13,7 +13,7 @@ catch(err){
 
 var express = require('express');
 var models = require('./models');
-var bodyParser =require('body-Parser');
+var bodyParser =require('body-parser');
 var app = express();
 var sequelize = require('sequelize');
 var multer = require('multer');
