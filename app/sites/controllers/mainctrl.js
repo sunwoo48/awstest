@@ -10,9 +10,14 @@
     var ctrl = this;
     ctrl.$state = $state;
     ctrl.gotoCoff = gotoCoff;
+    ctrl.gotovinyl = gotovinyl;
   
     function gotoCoff() {
       ctrl.$state.go('coffee');
+
+    }
+    function gotovinyl() {
+      ctrl.$state.go('vinyl');
 
     }
 

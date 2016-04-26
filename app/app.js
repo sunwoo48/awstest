@@ -16,5 +16,9 @@ app.config(function($httpProvider, $urlRouterProvider, $stateProvider){
 	templateUrl: 'sites/partials/coffee.html',
 	// controller: 'c as ctrl'
 	})
-	
+		.state('vinyl',{
+	url: '/vinyl',
+	templateUrl: 'sites/partials/vinyl.html',
+	// controller: 'c as ctrl'
+	})
 });
