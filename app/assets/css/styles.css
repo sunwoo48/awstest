@@ -1,7 +1,5 @@
 
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900");
-@import url(https://fonts.googleapis.com/css?family=Satisfy);
-
 
 
 .formtst {
@@ -648,7 +646,7 @@ margin:0 auto;
 
 
 
-/*gallary*/
+/*main*/
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -718,29 +716,19 @@ margin:0 auto;
 
 
 .img1{
-	background-image: url("../images/ug4.jpeg");
+	background-image: url("../images/jimmy/jim2.jpg");
+	background-position: 70% 0%;
 }
 
 .img2 {
-	background-image: url("../images/we.jpeg");
+	background-image: url("../images/vinyl/logo.png");
 }
 
 .img3 {
 	background-image: url("../images/hi.jpeg");
 	background-position: 30% 30%;
 }
-.img4{
-		background-image: url("../images/sh.jpeg");
-	background-position: 80% 30%;
-}
-.img5{
-	background-image: url("../images/int.jpeg");
-	background-position: 10% 30%;
-}
-.img6{
-	background-image: url("../images/amaz.jpg");
 
-}
 
 
 .polaroid__content {
