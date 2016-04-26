@@ -34,12 +34,9 @@
 
 <!-- controllers -->
 	<script type="text/javascript" src="./app.js"></script>
-<!-- 	<script type="text/javascript" src="sites/controllers/coffeectrl.js"></script>
-	<script type="text/javascript" src="sites/controllers/shopctrl.js"></script> -->
 
   <script type="text/javascript" src="sites/controllers/mainctrl.js"></script>
-  <script type="text/javascript" src="sites/controllers/gallaryctrl.js"></script>
-  <script type="text/javascript" src="sites/controllers/aboutctrl.js"></script>
+
 
   <!-- font -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -73,13 +70,12 @@
 <div class="wrapper">
 
           <header id="header" ng-controller="mainctrl as ctrl">
-            <h1 ng-click="ctrl.reopen()">Sunwoo Lee</h1>
-            <nav class="links">
+            <h1>Sunwoo Lee</h1>
+<!--             <nav class="links">
               <ul>
                 <li><a ui-sref="gallary">Project</a></li>
-                <li><a ui-sref="about">About</a></li>
               </ul>
-            </nav>
+            </nav> -->
             <nav class="main">
               <ul>
                 <li class="search">
@@ -109,15 +105,8 @@
               <section>
                 <ul class="links">
                   <li>
-                    <a ui-sref="gallary">
+                    <a ui-sref="main">
                       <h3>Project</h3>
-                      <p>test</p>
-                    </a>
-                  </li>
-                  <li>
-                    <a ui-sref="about">
-                      <h3>About</h3>
-                      <p>Phasellus sed ultricies mi congue</p>
                     </a>
                   </li>
                 </ul>
