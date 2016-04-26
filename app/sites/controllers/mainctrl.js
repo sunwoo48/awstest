@@ -11,7 +11,7 @@
     ctrl.$state = $state;
 
 
-if (document.referrer == "http://localhost:8080/#/main") {
+if (document.referrer == "http://localhost:80/#/main") {
   window.location.reload(); 
 
 } 
