@@ -11,6 +11,10 @@ app.config(function($httpProvider, $urlRouterProvider, $stateProvider){
 	templateUrl: 'sites/partials/main.html',
 	controller: 'mainctrl as ctrl'
 	})
-
+	.state('coffee',{
+	url: '/coffee',
+	templateUrl: 'sites/partials/coffee.html',
+	// controller: 'c as ctrl'
+	})
 	
 });

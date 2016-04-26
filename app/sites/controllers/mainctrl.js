@@ -5,16 +5,16 @@
         .module('photo')
         .controller('mainctrl', mainctrl);
 
-  function mainctrl($timeout, $mdSidenav, $log) {
+  function mainctrl($state) {
 
     var ctrl = this;
+    ctrl.$state = $state;
+    ctrl.gotoCoff = gotoCoff;
   
-  ctrl.categories = [
-		{label:'Portrait',value:'Portrait'},
-		{label:'Landscape',value:'Landscape'},
-		{label:'Wedding',value:'Wedding'},
-	];
-	ctrl.category='';
+    function gotoCoff() {
+      ctrl.$state.go('coffee');
+
+    }
 
 
   }
