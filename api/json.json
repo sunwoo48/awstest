@@ -1,0 +1,25 @@
+
+   data = '[{
+   	"blue" : "is ok", 
+   	"red" : "is my fave color"
+   	}]';
+
+
+
+    json = [
+        {
+            name: 'Ape',
+            sales: 100,
+            location: 'US'
+        },
+        {
+            name: 'Bob',
+            sales: 200,
+            location: 'UK'
+        },
+        {
+            name: 'Cat',
+            sales: 120,
+            location: 'Hell'
+        }
+    ];
